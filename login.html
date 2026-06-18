@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portal Login — Key Wellness</title>
+<meta name="description" content="Log in to the Key Wellness client portal." />
+<link rel="icon" type="image/png" href="assets/logo-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="login-wrap">
+
+  <!-- decorative aura background -->
+  <svg class="aura" viewBox="0 0 600 600" width="600" height="600" style="top:-120px;left:-160px;opacity:0.5" aria-hidden="true">
+    <circle cx="300" cy="300" r="280" fill="#fdf3cf" />
+  </svg>
+  <svg class="aura" viewBox="0 0 600 600" width="500" height="500" style="bottom:-160px;right:-140px;opacity:0.6" aria-hidden="true">
+    <circle cx="300" cy="300" r="260" fill="#e7f1e7" />
+  </svg>
+
+  <div class="login-card reveal in-view">
+    <a href="index.html" class="login-back">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      Back to home
+    </a>
+
+    <svg class="login-icon" viewBox="0 0 265 259" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g fill="#9c9b96">
+        <circle cx="132" cy="20" r="9"/>
+        <circle cx="93" cy="27" r="8.3"/>
+        <circle cx="58" cy="45" r="7.6"/>
+        <circle cx="30" cy="73" r="7"/>
+        <circle cx="171" cy="27" r="8.3"/>
+        <circle cx="206" cy="45" r="7.6"/>
+        <circle cx="234" cy="73" r="7"/>
+      </g>
+      <circle cx="132" cy="110" r="40" fill="#3a7e3d"/>
+      <path d="M132 148
+               C 132 186, 75 186, 56 228
+               C 44 254, 66 270, 86 258
+               C 106 246, 116 210, 132 192
+               C 148 210, 158 246, 178 258
+               C 198 270, 220 254, 208 228
+               C 189 186, 132 186, 132 148 Z"
+            fill="#ebc51c"/>
+    </svg>
+
+    <div class="login-badge">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 7v5l3 3"/></svg>
+      Portal coming soon
+    </div>
+
+    <h1>Welcome back</h1>
+    <p class="login-sub">Log in to access your Key Wellness portal.</p>
+
+    <form id="login-form">
+      <div class="field">
+        <label for="login-email">Email or username</label>
+        <input type="text" id="login-email" name="login-email" required autocomplete="username" />
+      </div>
+
+      <div class="field">
+        <label for="login-password">Password</label>
+        <input type="password" id="login-password" name="login-password" required autocomplete="current-password" />
+      </div>
+
+      <div class="field-check">
+        <label><input type="checkbox" name="remember" /> Remember me</label>
+        <a href="#">Forgot password?</a>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block">Log in</button>
+
+      <div class="login-placeholder-msg" id="login-placeholder-msg">
+        The client portal isn't connected yet — this is a placeholder login screen. Hook this form up to your authentication system when the portal is ready.
+      </div>
+    </form>
+
+    <p class="login-foot">Need access? <a href="contact.html">Contact us</a></p>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

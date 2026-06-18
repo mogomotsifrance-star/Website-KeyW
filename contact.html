@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact Us — Key Wellness</title>
+<meta name="description" content="Get in touch with Key Wellness to discuss financial, workplace, or psychosocial wellness support for yourself, your family, or your organization." />
+<link rel="icon" type="image/png" href="assets/logo-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ============================ HEADER ============================ -->
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="nav-logo" aria-label="Key Wellness home">
+      <img src="assets/logo-full.png" alt="Key Wellness" />
+    </a>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="login.html">Login to Portal</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <a href="login.html" class="btn btn-ghost btn-sm">Login to Portal</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<!-- ============================ PAGE HEADER ============================ -->
+<section class="page-header">
+  <div class="container">
+    <div class="eyebrow reveal"><span class="dot"></span>Get in touch</div>
+    <h1 class="reveal">Let's start the conversation</h1>
+    <p class="lead reveal">Tell us about your wellness needs — for yourself, your family, or your organization — and we'll help you find the right starting point.</p>
+  </div>
+</section>
+
+<!-- ============================ CONTACT GRID ============================ -->
+<section style="padding-top:8px">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- FORM -->
+      <div class="form-card reveal">
+        <div class="form-success" id="form-success">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          Thanks — your message has been queued. (This form isn't connected to an inbox yet — see the note below.)
+        </div>
+
+        <form id="contact-form">
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="phone">Phone number</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+            <div class="field">
+              <label for="org">Organization (optional)</label>
+              <input type="text" id="org" name="org" />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="interest">I'm interested in</label>
+            <select id="interest" name="interest">
+              <option>General inquiry</option>
+              <option>Employee Financial Wellbeing Programs</option>
+              <option>Financial Coaching and Mentoring</option>
+              <option>Financial Literacy Training and Education</option>
+              <option>Debt Management and Rehabilitation Support</option>
+              <option>Corporate Wellness Solutions</option>
+              <option>Employee Assistance Programs (EAP)</option>
+              <option>Wellness Day Coordination</option>
+              <option>Retrenchment Counselling and Transition Support</option>
+              <option>Psychosocial Support Services</option>
+              <option>Individual and Family Wellness Interventions</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Tell us a little about what you're looking for..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Send message</button>
+          <p class="form-note">This is a preview site — the form doesn't send to a live inbox yet. Connect it to your email or CRM when you're ready to launch.</p>
+        </form>
+      </div>
+
+      <!-- CONTACT INFO -->
+      <div class="reveal">
+        <div class="contact-info-card">
+          <h3>Contact details</h3>
+
+          <div class="contact-info-row">
+            <div class="icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            </div>
+            <div>
+              <h5>Email</h5>
+              <a href="mailto:info@keywellness.com">info@keywellness.com</a>
+            </div>
+          </div>
+
+          <div class="contact-info-row">
+            <div class="icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8.1 9.6a16 16 0 0 0 6 6l1.1-1.2a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2Z"/></svg>
+            </div>
+            <div>
+              <h5>Phone</h5>
+              <a href="tel:+26700000000">+267 00 000 000</a>
+            </div>
+          </div>
+
+          <div class="contact-info-row">
+            <div class="icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            </div>
+            <div>
+              <h5>Location</h5>
+              <p>Gaborone, Botswana</p>
+            </div>
+          </div>
+
+          <div class="contact-hours">
+            <strong>Office hours</strong>
+            Monday – Friday, 8:00 – 17:00
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand-mark">
+          <img src="assets/logo-icon.png" alt="" />
+          <span><span class="key">KEY</span> <span class="wellness">WELLNESS</span></span>
+        </div>
+        <p class="footer-tagline">Wellness is key, be about it.</p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html">Login to Portal</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="services.html#financial">Financial Wellness</a></li>
+          <li><a href="services.html#workplace">Workplace Wellness</a></li>
+          <li><a href="services.html#psychosocial">Psychosocial &amp; Family</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <address>
+          info@keywellness.com<br>
+          +267 00 000 000<br>
+          Gaborone, Botswana
+        </address>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 Key Wellness. All rights reserved.</span>
+      <div class="footer-socials">
+        <a href="#" aria-label="Key Wellness on LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6.5 0H13v1.7h.05c.5-1 1.7-2 3.5-2 3.8 0 4.45 2.5 4.45 5.7V21h-4v-5.6c0-1.35-.02-3.1-1.9-3.1-1.9 0-2.2 1.5-2.2 3v5.7h-4V9Z"/></svg>
+        </a>
+        <a href="#" aria-label="Key Wellness on Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7h2.4l.4-3H13.5V9.2c0-.9.3-1.5 1.6-1.5h1.4V5.1c-.7-.1-1.6-.2-2.5-.2-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3h2.3v7h3.7Z"/></svg>
+        </a>
+        <a href="#" aria-label="Key Wellness on Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="3.7"/><circle cx="17" cy="7" r="0.6" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
