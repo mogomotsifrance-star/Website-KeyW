@@ -1,252 +1,216 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Key Wellness — Comprehensive Wellness Solutions</title>
-<meta name="description" content="Key Wellness designs tailored financial, psychosocial, emotional, and workplace wellness programs for individuals, families, and organizations." />
-<link rel="icon" type="image/png" href="assets/logo-icon.png" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Key Wellness — Home</title>
+<meta name="description" content="Key Wellness offers tailor-made wellness solutions for individuals, families and companies in Botswana.">
+<link rel="icon" href="logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap">
+<style>
+body{margin:0;background:#F5F7F4}
+a{color:#10302A}a:hover{color:#1C4A40}
+</style>
+<style>html{scroll-behavior:smooth}*{box-sizing:border-box}img{max-width:100%}@media (max-width:640px){h1{font-size:44px!important}h2{font-size:32px!important}}</style>
 </head>
 <body>
+<div style="font-family: Manrope, system-ui, sans-serif; color: #10302A; background: #F5F7F4; font-size: 17px; line-height: 1.6">
 
-<!-- ============================ HEADER ============================ -->
-<header class="site-header">
-  <nav class="nav">
-    <a href="index.html" class="nav-logo" aria-label="Key Wellness home">
-      <img src="assets/logo-full.png" alt="Key Wellness" />
-    </a>
-
-    <ul class="nav-links" id="nav-links">
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="login.html">Login to Portal</a></li>
-    </ul>
-
-    <div class="nav-actions">
-      <a href="login.html" class="btn btn-ghost btn-sm">Login to Portal</a>
-      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </nav>
+<header style="background: #F5F7F4; border-bottom: 1px solid #D9E1DC">
+<nav style="max-width: 1200px; margin: 0 auto; padding: 18px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="index.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #10302A">
+<img src="logo.png" alt="Key Wellness — Wellness Is Key, Be About It." style="height: 52px; width: auto; display: block">
+</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 28px; font-weight: 600; font-size: 15px">
+<a href="#services" style="text-decoration: none">Services</a>
+<a href="employers.html" style="text-decoration: none">For employers</a>
+<a href="#about" style="text-decoration: none">About</a>
+<a href="tools.html" style="text-decoration: none">Portal</a>
+<a href="#contact" style="text-decoration: none; background: #E5C748; color: #10302A; padding: 11px 20px; border-radius: 999px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Contact us</a>
+</div>
+</nav>
 </header>
 
-<!-- ============================ HERO ============================ -->
-<section class="hero">
-  <div class="container">
-    <div class="hero-copy reveal">
-      <div class="eyebrow"><span class="dot"></span>Comprehensive Wellness Solutions</div>
-      <h1>Wellness is key.<br><span class="accent">Be about it.</span></h1>
-      <p class="lead">We design tailored financial, psychosocial, emotional, and workplace wellness interventions — built around the real needs of individuals, families, and organizations.</p>
-      <div class="hero-actions">
-        <a href="services.html" class="btn btn-primary">Explore our services</a>
-        <a href="login.html" class="btn btn-ghost">Login to portal</a>
-      </div>
-      <div class="hero-served">
-        <div>Individuals</div>
-        <div>Families</div>
-        <div>Organizations</div>
-      </div>
-    </div>
-
-    <div class="hero-visual reveal">
-      <svg viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <circle cx="210" cy="210" r="190" fill="#fdf3cf" opacity="0.6" />
-        <circle cx="210" cy="210" r="140" fill="#e7f1e7" opacity="0.7" />
-        <!-- aura dots -->
-        <g fill="#9c9b96">
-          <circle cx="210" cy="95" r="7" />
-          <circle cx="178" cy="100" r="6.5" />
-          <circle cx="148" cy="114" r="6" />
-          <circle cx="124" cy="138" r="5.5" />
-          <circle cx="242" cy="100" r="6.5" />
-          <circle cx="272" cy="114" r="6" />
-          <circle cx="296" cy="138" r="5.5" />
-        </g>
-        <circle cx="210" cy="175" r="34" fill="#3a7e3d" />
-        <path d="M210 205
-                 C 210 235, 165 235, 150 270
-                 C 140 292, 158 305, 175 295
-                 C 192 285, 200 255, 210 240
-                 C 220 255, 228 285, 245 295
-                 C 262 305, 280 292, 270 270
-                 C 255 235, 210 235, 210 205 Z"
-              fill="#ebc51c" />
-      </svg>
-    </div>
-  </div>
+<section style="max-width: 1200px; margin: 0 auto; padding: 88px 24px 96px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div style="flex: 1 1 520px; min-width: 0">
+<p style="margin: 0 0 20px; font-size: 14px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4B5E57">Wellness for individuals, families &amp; companies</p>
+<h1 style="margin: 0 0 24px; font-family: Sora, sans-serif; font-size: 64px; line-height: 1.04; letter-spacing: -0.03em; font-weight: 700">Wellness is key.<br>Be about it.</h1>
+<p style="margin: 0 0 36px; font-size: 20px; color: #4B5E57; max-width: 34rem">Tailor-made wellness solutions that improve lives — from financial coaching and employee assistance to psychosocial support and wellness days.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 14px">
+<a href="employers.html" style="text-decoration: none; background: #10302A; color: #F5F7F4; font-weight: 700; padding: 16px 26px; border-radius: 999px; min-height: 44px; box-sizing: border-box">Wellness for your organisation</a>
+<a href="#services" style="text-decoration: none; border: 1.5px solid #10302A; font-weight: 700; padding: 15px 26px; border-radius: 999px; min-height: 44px; box-sizing: border-box">Explore our services</a>
+</div>
+</div>
+<div style="flex: 1 1 400px; min-width: 0">
+<div style="background: #10302A; color: #F5F7F4; border-radius: 28px; padding: 36px; display: flex; flex-direction: column; gap: 22px">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 12px">
+<span style="font-family: Sora, sans-serif; font-weight: 600; font-size: 20px">Monthly money check-in</span>
+<span style="font-size: 13px; font-weight: 700; background: rgba(245,247,244,0.12); padding: 6px 12px; border-radius: 999px">Example</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(245,247,244,0.16); padding-bottom: 12px"><span style="color: #B8CCC4">Net salary</span><span style="font-weight: 700">P 12,000</span></div>
+<div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(245,247,244,0.16); padding-bottom: 12px"><span style="color: #B8CCC4">Loan repayments</span><span style="font-weight: 700">P 4,800</span></div>
+<div style="display: flex; justify-content: space-between"><span style="color: #B8CCC4">Left for living &amp; saving</span><span style="font-weight: 700">P 7,200</span></div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; justify-content: space-between; font-size: 15px"><span>Debt-to-income</span><span style="font-weight: 700">40%</span></div>
+<div style="height: 12px; background: rgba(245,247,244,0.14); border-radius: 999px; overflow: hidden"><div style="width: 40%; height: 100%; background: #E5C748; border-radius: 999px"></div></div>
+<p style="margin: 0; font-size: 14px; color: #B8CCC4">Above a comfortable range. Our financial coaches can help you build a plan.</p>
+</div>
+<a href="tools.html" style="text-decoration: none; background: #E5C748; color: #10302A; text-align: center; font-weight: 700; padding: 14px; border-radius: 14px; min-height: 44px; box-sizing: border-box">Try the calculators on our portal</a>
+</div>
+</div>
 </section>
 
-<!-- ============================ PILLARS ============================ -->
-<section>
-  <div class="container">
-    <div class="section-head section-head--center reveal">
-      <div class="eyebrow" style="justify-content:center"><span class="dot"></span>How we help</div>
-      <h2>Wellness, addressed from every angle</h2>
-      <p>We work across three connected pillars, building programs that meet people — and the organizations that support them — exactly where they are.</p>
-    </div>
-
-    <div class="pillars-grid">
-      <div class="pillar-card reveal">
-        <div class="pillar-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 9.5c0-1.1 1.2-2 3-2s3 .8 3 1.8c0 2.2-6 1.5-6 4.2 0 1 1.2 1.8 3 1.8s3-.9 3-2"/><path d="M12 6.5v1M12 16v1"/></svg>
-        </div>
-        <h3>Financial Wellness</h3>
-        <p>Coaching, literacy training, and debt support that build real financial confidence — for employees and individuals alike.</p>
-        <a href="services.html#financial" class="pillar-link">Explore financial services
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </a>
-      </div>
-
-      <div class="pillar-card reveal">
-        <div class="pillar-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="1.5"/><path d="M9 8h.01M15 8h.01M9 12h.01M15 12h.01M9 16h6"/></svg>
-        </div>
-        <h3>Workplace Wellness</h3>
-        <p>Corporate wellness strategy, EAPs, and health promotion campaigns that help teams stay healthy, supported, and resilient.</p>
-        <a href="services.html#workplace" class="pillar-link">Explore workplace services
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </a>
-      </div>
-
-      <div class="pillar-card reveal">
-        <div class="pillar-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-9.3-9C1.2 9 2.6 6 5.6 6c1.8 0 3.2 1 3.9 2.3C10.2 7 11.6 6 13.4 6c3 0 4.4 3 3.9 6-2.3 4.5-5.3 9-5.3 9Z"/></svg>
-        </div>
-        <h3>Psychosocial &amp; Family Wellness</h3>
-        <p>Counselling, transition support, and family-centered interventions that care for the emotional side of wellbeing.</p>
-        <a href="services.html#psychosocial" class="pillar-link">Explore psychosocial services
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </a>
-      </div>
-    </div>
-  </div>
+<section style="border-top: 1px solid #D9E1DC; border-bottom: 1px solid #D9E1DC; background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 32px 24px; display: flex; flex-direction: column; gap: 18px">
+<span style="font-size: 14px; font-weight: 700; color: #4B5E57">Trusted by organisations across Botswana</span>
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<span style="border: 1px solid #D9E1DC; border-radius: 10px; padding: 10px 16px; font-weight: 700; font-size: 15px">Letshego</span>
+<span style="border: 1px solid #D9E1DC; border-radius: 10px; padding: 10px 16px; font-weight: 700; font-size: 15px">Debswana Wellness Fund</span>
+<span style="border: 1px solid #D9E1DC; border-radius: 10px; padding: 10px 16px; font-weight: 700; font-size: 15px">BDC</span>
+<span style="border: 1px solid #D9E1DC; border-radius: 10px; padding: 10px 16px; font-weight: 700; font-size: 15px">BOBS</span>
+<span style="border: 1px solid #D9E1DC; border-radius: 10px; padding: 10px 16px; font-weight: 700; font-size: 15px">Ministry of Finance</span>
+<span style="border: 1px solid #D9E1DC; border-radius: 10px; padding: 10px 16px; font-weight: 700; font-size: 15px">FirstCred</span>
+<span style="border: 1px solid #D9E1DC; border-radius: 10px; padding: 10px 16px; font-weight: 700; font-size: 15px">BERA</span>
+<span style="border: 1px solid #D9E1DC; border-radius: 10px; padding: 10px 16px; font-weight: 700; font-size: 15px">BPC</span>
+<span style="border: 1px solid #D9E1DC; border-radius: 10px; padding: 10px 16px; font-weight: 700; font-size: 15px">BOMAID</span>
+<span style="border: 1px solid #D9E1DC; border-radius: 10px; padding: 10px 16px; font-weight: 700; font-size: 15px">Puma Energy</span>
+<span style="border: 1px solid #D9E1DC; border-radius: 10px; padding: 10px 16px; font-weight: 700; font-size: 15px">HOPE worldwide</span>
+</div>
+</div>
 </section>
 
-<!-- ============================ WHY KEY WELLNESS ============================ -->
-<section class="section--cream">
-  <div class="container">
-    <div class="section-head reveal">
-      <div class="eyebrow"><span class="dot"></span>Our approach</div>
-      <h2>Built around the people we serve</h2>
-    </div>
-
-    <div class="features-grid">
-      <div class="feature-block reveal">
-        <div class="feature-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="0.6" fill="currentColor"/></svg>
-        </div>
-        <h4>Tailored, not templated</h4>
-        <p>Every intervention starts with your specific context, not a one-size-fits-all program.</p>
-      </div>
-
-      <div class="feature-block reveal">
-        <div class="feature-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="12" r="6"/><circle cx="15" cy="12" r="6"/></svg>
-        </div>
-        <h4>Holistic by design</h4>
-        <p>Financial stress, emotional strain, and workplace pressure rarely show up alone — we address them together.</p>
-      </div>
-
-      <div class="feature-block reveal">
-        <div class="feature-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
-        </div>
-        <h4>For individuals and institutions</h4>
-        <p>From one-on-one coaching to organization-wide strategy, our programs scale with you.</p>
-      </div>
-
-      <div class="feature-block reveal">
-        <div class="feature-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-1.1 4.2L21 19l-3.4-1a8.4 8.4 0 1 1 3.4-6.5Z"/></svg>
-        </div>
-        <h4>Practical, human support</h4>
-        <p>Real coaching and counselling from people who listen first and design second.</p>
-      </div>
-    </div>
-  </div>
+<section id="services" style="max-width: 1200px; margin: 0 auto; padding: 112px 24px 104px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 52px">
+<div style="max-width: 640px">
+<p style="margin: 0 0 14px; font-size: 14px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4B5E57">Our services</p>
+<h2 style="margin: 0; font-family: Sora, sans-serif; font-size: 44px; line-height: 1.1; letter-spacing: -0.02em">Customised solutions, built around your needs</h2>
+</div>
+<p style="margin: 0; max-width: 380px; color: #4B5E57">Each solution starts with understanding your people, then combines the services that will make a measurable difference.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px">
+<div style="flex: 1 1 340px; min-width: 0; background: #FFFFFF; border: 1px solid #D9E1DC; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="width: 44px; height: 44px; border-radius: 12px; background: #E5C748; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6" fill="none" stroke="#10302A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+<h3 style="margin: 0; font-family: Sora, sans-serif; font-size: 21px">Corporate Wellness Packages</h3>
+<p style="margin: 0; color: #4B5E57; font-size: 16px">Year-round wellness programmes for your workforce, designed as a culture rather than a once-off event.</p>
+</div>
+<div style="flex: 1 1 340px; min-width: 0; background: #FFFFFF; border: 1px solid #D9E1DC; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="width: 44px; height: 44px; border-radius: 12px; background: #E5C748; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5M4 19h16M8 15l4-4 3 3 5-6" fill="none" stroke="#10302A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+<h3 style="margin: 0; font-family: Sora, sans-serif; font-size: 21px">Employee Financial Coaching &amp; Mentoring</h3>
+<p style="margin: 0; color: #4B5E57; font-size: 16px">Practical coaching on budgeting, debt, saving and planning, delivered by qualified financial advisors.</p>
+</div>
+<div style="flex: 1 1 340px; min-width: 0; background: #FFFFFF; border: 1px solid #D9E1DC; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="width: 44px; height: 44px; border-radius: 12px; background: #E5C748; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z" fill="none" stroke="#10302A" stroke-width="2" stroke-linejoin="round"></path></svg></span>
+<h3 style="margin: 0; font-family: Sora, sans-serif; font-size: 21px">Employee Assistance Programmes</h3>
+<p style="margin: 0; color: #4B5E57; font-size: 16px">Confidential support employees can turn to when personal, family or work challenges affect their wellbeing.</p>
+</div>
+<div style="flex: 1 1 340px; min-width: 0; background: #FFFFFF; border: 1px solid #D9E1DC; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="width: 44px; height: 44px; border-radius: 12px; background: #E5C748; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.5" fill="none" stroke="#10302A" stroke-width="2"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M16 4.5a3.5 3.5 0 0 1 0 7M18 14c2 .7 3 2.8 3 6" fill="none" stroke="#10302A" stroke-width="2" stroke-linecap="round"></path></svg></span>
+<h3 style="margin: 0; font-family: Sora, sans-serif; font-size: 21px">Employee Psychosocial Support</h3>
+<p style="margin: 0; color: #4B5E57; font-size: 16px">Counselling and support for stress, anxiety and the emotional strain that often comes with life and money pressures.</p>
+</div>
+<div style="flex: 1 1 340px; min-width: 0; background: #FFFFFF; border: 1px solid #D9E1DC; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="width: 44px; height: 44px; border-radius: 12px; background: #E5C748; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7V4h8v3M4 7h16v12H4zM4 12h16" fill="none" stroke="#10302A" stroke-width="2" stroke-linejoin="round"></path></svg></span>
+<h3 style="margin: 0; font-family: Sora, sans-serif; font-size: 21px">Retrenchment Counselling &amp; Support</h3>
+<p style="margin: 0; color: #4B5E57; font-size: 16px">Guidance through job loss — managing a package wisely, coping with the change and planning the next chapter.</p>
+</div>
+<div style="flex: 1 1 340px; min-width: 0; background: #FFFFFF; border: 1px solid #D9E1DC; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="width: 44px; height: 44px; border-radius: 12px; background: #E5C748; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2" fill="none" stroke="#10302A" stroke-width="2"></rect><path d="M4 10h16M9 3v4M15 3v4" fill="none" stroke="#10302A" stroke-width="2" stroke-linecap="round"></path></svg></span>
+<h3 style="margin: 0; font-family: Sora, sans-serif; font-size: 21px">Wellness Day Coordination</h3>
+<p style="margin: 0; color: #4B5E57; font-size: 16px">End-to-end planning and delivery of wellness days, as one coordinated part of a longer programme.</p>
+</div>
+</div>
 </section>
 
-<!-- ============================ CTA BANNER ============================ -->
-<section>
-  <div class="container">
-    <div class="cta-banner reveal">
-      <div>
-        <h2>Let's design a wellness strategy that works for your people</h2>
-        <p>Tell us what your team, family, or organization needs — we'll help you find the right starting point.</p>
-      </div>
-      <div class="cta-actions">
-        <a href="contact.html" class="btn btn-primary">Get in touch</a>
-      </div>
-    </div>
-  </div>
+<section style="background: #10302A; color: #F5F7F4">
+<div style="max-width: 1200px; margin: 0 auto; padding: 104px 24px; display: flex; flex-wrap: wrap; gap: 56px">
+<div style="flex: 1 1 420px; min-width: 0">
+<p style="margin: 0 0 14px; font-size: 14px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #B8CCC4">Our approach</p>
+<h2 style="margin: 0 0 20px; font-family: Sora, sans-serif; font-size: 44px; line-height: 1.1; letter-spacing: -0.02em">From a medical paradigm to a wellness paradigm</h2>
+<p style="margin: 0; color: #B8CCC4">We define wellness, after the Global Wellness Institute, as actively pursuing the choices and lifestyles that lead to holistic health. We help clients move from reacting to poor health towards proactively building optimal wellbeing.</p>
+</div>
+<div style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column">
+<p style="margin: 0 0 8px; font-family: Sora, sans-serif; font-weight: 600; font-size: 20px">Wellness is not…</p>
+<div style="display: flex; gap: 18px; padding: 18px 0; border-bottom: 1px solid rgba(245,247,244,0.18)"><span style="font-family: Sora, sans-serif; font-weight: 700; color: #E5C748">01</span><span>an event — it is a <strong>lifestyle</strong>.</span></div>
+<div style="display: flex; gap: 18px; padding: 18px 0; border-bottom: 1px solid rgba(245,247,244,0.18)"><span style="font-family: Sora, sans-serif; font-weight: 700; color: #E5C748">02</span><span>a once-off initiative — it is a <strong>series of coordinated, measurable activities</strong>.</span></div>
+<div style="display: flex; gap: 18px; padding: 18px 0; border-bottom: 1px solid rgba(245,247,244,0.18)"><span style="font-family: Sora, sans-serif; font-weight: 700; color: #E5C748">03</span><span>a one-day event — it is a <strong>culture</strong>.</span></div>
+<div style="display: flex; gap: 18px; padding: 18px 0; border-bottom: 1px solid rgba(245,247,244,0.18)"><span style="font-family: Sora, sans-serif; font-weight: 700; color: #E5C748">04</span><span>a by-the-way activity — it is a <strong>process led by qualified professionals</strong>.</span></div>
+<div style="display: flex; gap: 18px; padding: 18px 0"><span style="font-family: Sora, sans-serif; font-weight: 700; color: #E5C748">05</span><span>an irritant to the organisation — it is a <strong>major driver of productivity</strong>.</span></div>
+</div>
+</div>
 </section>
 
-<!-- ============================ FOOTER ============================ -->
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-top">
-      <div>
-        <div class="footer-brand-mark">
-          <img src="assets/logo-icon.png" alt="" />
-          <span><span class="key">KEY</span> <span class="wellness">WELLNESS</span></span>
-        </div>
-        <p class="footer-tagline">Wellness is key, be about it.</p>
-      </div>
+<section id="about" style="max-width: 1200px; margin: 0 auto; padding: 112px 24px 96px">
+<p style="margin: 0 0 14px; font-size: 14px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4B5E57">Our team</p>
+<h2 style="margin: 0 0 48px; font-family: Sora, sans-serif; font-size: 44px; line-height: 1.1; letter-spacing: -0.02em; max-width: 640px">Qualified advisors and planners on your side</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 20px">
+<div style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 12px"><div style="aspect-ratio: 4 / 5; border-radius: 20px; background: #E2E9E4; border: 1.5px dashed #B6C3BC; display: flex; align-items: center; justify-content: center; font-size: 13px; color: #4B5E57">[Photo]</div><div><strong style="display: block; font-family: Sora, sans-serif; font-size: 17px">Mogomotsi France</strong><span style="color: #4B5E57; font-size: 15px">Financial Advisor</span></div></div>
+<div style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 12px"><div style="aspect-ratio: 4 / 5; border-radius: 20px; background: #E2E9E4; border: 1.5px dashed #B6C3BC; display: flex; align-items: center; justify-content: center; font-size: 13px; color: #4B5E57">[Photo]</div><div><strong style="display: block; font-family: Sora, sans-serif; font-size: 17px">Thato Kubu</strong><span style="color: #4B5E57; font-size: 15px">Financial Advisor</span></div></div>
+<div style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 12px"><div style="aspect-ratio: 4 / 5; border-radius: 20px; background: #E2E9E4; border: 1.5px dashed #B6C3BC; display: flex; align-items: center; justify-content: center; font-size: 13px; color: #4B5E57">[Photo]</div><div><strong style="display: block; font-family: Sora, sans-serif; font-size: 17px">Vincent Morewang</strong><span style="color: #4B5E57; font-size: 15px">Financial Advisor</span></div></div>
+<div style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 12px"><div style="aspect-ratio: 4 / 5; border-radius: 20px; background: #E2E9E4; border: 1.5px dashed #B6C3BC; display: flex; align-items: center; justify-content: center; font-size: 13px; color: #4B5E57">[Photo]</div><div><strong style="display: block; font-family: Sora, sans-serif; font-size: 17px">Kitso Gorthan Ndlovu</strong><span style="color: #4B5E57; font-size: 15px">Financial Planner</span></div></div>
+<div style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 12px"><div style="aspect-ratio: 4 / 5; border-radius: 20px; background: #E2E9E4; border: 1.5px dashed #B6C3BC; display: flex; align-items: center; justify-content: center; font-size: 13px; color: #4B5E57">[Photo]</div><div><strong style="display: block; font-family: Sora, sans-serif; font-size: 17px">Katlo Tshepiso Ramontshonyana</strong><span style="color: #4B5E57; font-size: 15px">Financial Planner</span></div></div>
+</div>
+</section>
 
-      <div class="footer-col">
-        <h5>Quick Links</h5>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="login.html">Login to Portal</a></li>
-        </ul>
-      </div>
+<section style="max-width: 1200px; margin: 0 auto; padding: 0 24px 112px">
+<div style="background: #FFFFFF; border: 1px solid #D9E1DC; border-radius: 28px; padding: 48px; display: flex; flex-wrap: wrap; gap: 40px; align-items: center">
+<div style="flex: 1 1 420px; min-width: 0">
+<p style="margin: 0 0 14px; font-size: 14px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4B5E57">Part of Key Wealth Group</p>
+<h2 style="margin: 0 0 16px; font-family: Sora, sans-serif; font-size: 32px; line-height: 1.15">An end-to-end wellness partner, backed by a group</h2>
+<p style="margin: 0; color: #4B5E57">Key Wellness is a subsidiary of Key Intelligent Solutions (Key Wealth Group). Our group structure lets us draw on the capabilities of our sister companies to build customised solutions for every client.</p>
+</div>
+<div style="flex: 1 1 360px; min-width: 0; display: flex; flex-wrap: wrap; gap: 12px">
+<span style="flex: 1 1 160px; border: 1px solid #D9E1DC; border-radius: 14px; padding: 16px 18px; font-weight: 700">Key Wealth Advisory</span>
+<span style="flex: 1 1 160px; border: 1px solid #D9E1DC; border-radius: 14px; padding: 16px 18px; font-weight: 700">Assure Wealth</span>
+<span style="flex: 1 1 160px; border: 1px solid #D9E1DC; border-radius: 14px; padding: 16px 18px; font-weight: 700">ProLearn Institute</span>
+<span style="flex: 1 1 160px; border: 2px solid #10302A; border-radius: 14px; padding: 16px 18px; font-weight: 700">Key Wellness</span>
+</div>
+</div>
+</section>
 
-      <div class="footer-col">
-        <h5>Services</h5>
-        <ul>
-          <li><a href="services.html#financial">Financial Wellness</a></li>
-          <li><a href="services.html#workplace">Workplace Wellness</a></li>
-          <li><a href="services.html#psychosocial">Psychosocial &amp; Family</a></li>
-        </ul>
-      </div>
+<section id="contact" style="background: #10302A; color: #F5F7F4">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px; display: flex; flex-wrap: wrap; gap: 48px; align-items: center; justify-content: space-between">
+<div style="flex: 1 1 520px; min-width: 0">
+<h2 style="margin: 0 0 16px; font-family: Sora, sans-serif; font-size: 48px; line-height: 1.08; letter-spacing: -0.02em">Let's make wellness a culture</h2>
+<p style="margin: 0 0 20px; color: #B8CCC4; font-size: 19px; max-width: 32rem">Call, email or visit us at Mogobe Plaza in Gaborone.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px 32px; font-weight: 700">
+<a href="tel:+2673110434" style="color: #F5F7F4">+267 311 0434</a>
+<a href="mailto:inquiries@keywellness.co.bw" style="color: #F5F7F4">inquiries@keywellness.co.bw</a>
+</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 14px">
+<a href="employers.html" style="text-decoration: none; background: #E5C748; color: #10302A; font-weight: 700; padding: 17px 28px; border-radius: 999px; min-height: 44px; box-sizing: border-box">Request a proposal</a>
+<a href="tel:+2673110434" style="text-decoration: none; border: 1.5px solid #F5F7F4; color: #F5F7F4; font-weight: 700; padding: 16px 28px; border-radius: 999px; min-height: 44px; box-sizing: border-box">Call us</a>
+</div>
+</div>
+</section>
 
-      <div class="footer-col">
-        <h5>Contact</h5>
-        <address>
-          info@keywellness.com<br>
-          +267 00 000 000<br>
-          Gaborone, Botswana
-        </address>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <span>&copy; 2026 Key Wellness. All rights reserved.</span>
-      <div class="footer-socials">
-        <a href="#" aria-label="Key Wellness on LinkedIn">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6.5 0H13v1.7h.05c.5-1 1.7-2 3.5-2 3.8 0 4.45 2.5 4.45 5.7V21h-4v-5.6c0-1.35-.02-3.1-1.9-3.1-1.9 0-2.2 1.5-2.2 3v5.7h-4V9Z"/></svg>
-        </a>
-        <a href="#" aria-label="Key Wellness on Facebook">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7h2.4l.4-3H13.5V9.2c0-.9.3-1.5 1.6-1.5h1.4V5.1c-.7-.1-1.6-.2-2.5-.2-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3h2.3v7h3.7Z"/></svg>
-        </a>
-        <a href="#" aria-label="Key Wellness on Instagram">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="3.7"/><circle cx="17" cy="7" r="0.6" fill="currentColor" stroke="none"/></svg>
-        </a>
-      </div>
-    </div>
-  </div>
+<footer style="background: #0B231E; color: #B8CCC4; font-size: 15px">
+<div style="max-width: 1200px; margin: 0 auto; padding: 56px 24px 40px; display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between">
+<div style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+<span style="font-family: Sora, sans-serif; font-weight: 700; font-size: 20px; color: #F5F7F4">Key Wellness</span>
+<span>Wellness is key. Be about it.</span>
+<span style="max-width: 300px">To improve the lives of individuals, families and companies through tailor-made wellness solutions.</span>
+</div>
+<div style="flex: 0 1 200px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-weight: 700; color: #F5F7F4">Explore</span>
+<a href="#services" style="color: #B8CCC4">Services</a>
+<a href="employers.html" style="color: #B8CCC4">For employers</a>
+<a href="#about" style="color: #B8CCC4">About</a>
+<a href="tools.html" style="color: #B8CCC4">Portal</a>
+</div>
+<div style="flex: 0 1 260px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-weight: 700; color: #F5F7F4">Contact</span>
+<span>Mogobe Plaza, Plot 54367<br>Gaborone, Botswana</span>
+<span>+267 311 0434</span>
+<span>inquiries@keywellness.co.bw</span>
+</div>
+</div>
+<div style="max-width: 1200px; margin: 0 auto; padding: 20px 24px 32px; border-top: 1px solid rgba(184,204,196,0.2); font-size: 13px">© 2026 Key Wellness, a Key Wealth Group company.</div>
 </footer>
 
-<script src="js/main.js"></script>
+</div>
 </body>
 </html>
